@@ -1,0 +1,56 @@
+Type=OleDll
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\WINDOWS\system32\stdole2.tlb#OLE Automation
+Module=basKernel32; bas\basKernel32.bas
+Module=basComCtl32; bas\basComctl32.bas
+Class=clsToolTip; cls\clsToolTip.cls
+Class=clsGeneral; cls\clsGeneral.cls
+Module=basUser32; bas\basUser32.bas
+Class=clsSelfSub; cls\clsSelfSub.cls
+ResFile32="res\Library.res"
+Startup="(None)"
+HelpFile=""
+Title="Library DLL"
+ExeName32="Library.dll"
+Path32="..\..\..\..\DLL"
+Command32=""
+Name="NGLibrary"
+HelpContextID="0"
+Description="Library DLL"
+CompatibleMode="2"
+CompatibleEXE32="C:\DLL\Library.dll"
+VersionCompatible32="1"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+DllBaseAddress=&H19500000
+VersionComments="20091219 10:38
+VersionCompanyName=""
+CompilationType=-1
+OptimizationType=1
+FavorPentiumPro(tm)=-1
+CodeViewDebugInfo=0
+NoAliasing=-1
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=-1
+UnroundedFP=0
+StartMode=1
+Unattended=-1
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+DebugStartupOption=0
+
+[MS Transaction Server]
+AutoRefresh=1
+
+
+
+
+
+
+
+
